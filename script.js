@@ -70,7 +70,7 @@ function rpsFrontEnd(humanChoice, botChoice, Message)
 
     var button = document.createElement('a');
     button.setAttribute('id','btn');
-    button.href="http://127.0.0.1:5500/index.html";
+    button.href="http://127.0.0.1:5501/index.html";
     button.innerText="Play Again"
     document.getElementById('reset').appendChild(button);
 }
